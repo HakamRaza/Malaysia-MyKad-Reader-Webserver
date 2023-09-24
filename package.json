@@ -1,0 +1,24 @@
+{
+  "name": "myKadReader",
+  "version": "1.0.0",
+  "websites": "https://github.com/HakamRaza/Malaysia-MyKad-Reader-Webserver",
+  "description": "Extract Malaysia NRIC MyKad or MyKid details through openSC framework.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "malaysia",
+    "nric",
+    "myKad",
+    "myKid",
+    "smartcard reader"
+  ],
+  "bin": "server.js",
+  "author": "HakamRaza",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
